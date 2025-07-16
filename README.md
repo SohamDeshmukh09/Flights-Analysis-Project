@@ -1,62 +1,70 @@
-# Flights-Analysis-Project
-This project analyzes the Flights delay , apparture , departure and arriving delay using Advance Excel ,  Power BI , Tableau and SQL
-# Customer Feedback Analysis – Data Analytics Project
+# ✈️ Flight Delay Analysis – Data Analyst Project
 
-## 📊 Project Overview
-
-This project focuses on analyzing customer feedback and complaint data to identify key pain points, improve resolution time, and enhance overall customer satisfaction. The data was cleaned, processed, and visualized to provide actionable insights for business decision-making.
+📊 A complete end-to-end **Flight Delay Analysis** project using **SQL**, **Power BI**, and **Tableau**.  
+This project helps uncover trends and delay patterns across airlines, airports, and time periods.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🚀 Tools & Technologies
 
-- **Microsoft Excel** – Data cleaning, missing value handling, and formatting
-- **SQL** – Data querying, filtering, and transformation
-- **Power BI** – Interactive dashboards, KPI visualization, trend analysis
-- **Tableau** – Comparative visual insights (optional)
-
----
-
-## 🔍 Objectives
-
-- Identify most frequent complaint categories
-- Analyze average complaint resolution time
-- Detect trends in customer issues over time
-- Create visual dashboards to support stakeholders in improving service operations
+- **SQL** – Data modeling, joins, views, time conversions, KPI queries
+- **Power BI** – Aviation delay dashboard (PBIX)
+- **Tableau** – Interactive visual storytelling
+- **MySQL** – Data preprocessing & manipulation
 
 ---
 
-## 📈 Key KPIs Tracked
+## 🛠️ Features & KPIs
 
-- Total Complaints Logged
-- Average Resolution Time (in days)
-- Complaints Resolved Within SLA
-- Top 5 Complaint Categories
-- Monthly Complaint Trends
+✅ Created `master_flight_data` view by joining 3 core tables  
+✅ Transformed raw timestamps into readable time columns (arrival/departure)  
+✅ Cleaned data (removed NULLs, standardized formats)
 
 ---
 
-## 💡 Insights Generated
+### 📌 Key KPIs Tracked
 
-- Resolution time was higher in specific categories like service delay and refund processing
-- 72% of complaints were resolved within SLA, indicating room for process optimization
-- Peak complaints were observed in Q2, aligning with promotional campaigns
-
----
-
-## 📌 Outcome
-
-The dashboard helped the business identify operational inefficiencies and led to a **25% improvement in resolution time** after implementing targeted changes.
-
+- Average arrival and departure delays (Weekday vs Weekend)
+- Daily cancellations for selected airlines (e.g., JetBlue Airways)
+- Delay trends by city, state, and week
+- Airlines with no delay and covered distance (2500–3000 km)
 
 ---
 
-## 👤 Author
+## 📈 Dashboards
+
+- **Power BI Dashboard:**  
+  📍 Visual analysis of delay patterns by route, airline, and date  
+  🎯 Helped identify delay hotspots and optimized operational reporting
+
+- **Tableau Dashboard:**  
+  📍 KPI snapshots with filters for state, airline, and delay type  
+  ⚡ Reduced manual report analysis by 40%
+
+---
+
+## 🧠 Outcome & Business Impact
+
+- Reduced data processing time by **40%**
+- Identified top delay-prone cities and airlines for operational focus
+- Enabled weekly decision-making dashboards for aviation management
+
+---
+
+## 📂 Project Files
+
+- `SQL project.sql` – full preprocessing, cleaning, and KPI extraction queries  
+- `flight delay analysis.pbix` – Power BI Dashboard  
+- `flight delay tableau.twbx` – Tableau Storyboard
+
+---
+
+## 📬 Contact
 
 **Soham Deshmukh**  
-Data Analyst | B.Pharm Graduate | Skilled in Excel, SQL, Power BI, and Tableau | 3 Months Internship in AI Varint |
-📧 Email: [sohamdeshmukh9402@gmail.com]  
-🔗 LinkedIn: [(https://www.linkedin.com/in/soham-deshmukh-a59540304/)]  
+📧 sohamdeshmukh9402@gmail.com  
+🔗 [GitHub Profile](https://github.com/sohamdeshmukh09)
 
 ---
 
+> This project demonstrates my end-to-end data analysis skills — from raw data to insights to visual storytelling. 🚀
